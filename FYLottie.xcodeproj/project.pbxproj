@@ -30,6 +30,7 @@
 		1E44BF6225491884006B8082 /* RectComp.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E44BF5625491884006B8082 /* RectComp.json */; };
 		1E44BF6325491884006B8082 /* Play-Pause.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E44BF5725491884006B8082 /* Play-Pause.json */; };
 		1E44BF6825491917006B8082 /* FYAnimRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44BF6725491917006B8082 /* FYAnimRefreshFooter.swift */; };
+		1E44BF6E25491D23006B8082 /* FYAnimButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44BF6D25491D23006B8082 /* FYAnimButton.swift */; };
 		463A07123A0AA5393DD6D3A3 /* Pods_FYLottieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F3C4682BEF951AB6C2A65 /* Pods_FYLottieTests.framework */; };
 		EDE0D666A792934266D7A607 /* Pods_FYLottie_FYLottieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC61A97BF4B80C448DF687D8 /* Pods_FYLottie_FYLottieUITests.framework */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		1E44BF5625491884006B8082 /* RectComp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RectComp.json; sourceTree = "<group>"; };
 		1E44BF5725491884006B8082 /* Play-Pause.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Play-Pause.json"; sourceTree = "<group>"; };
 		1E44BF6725491917006B8082 /* FYAnimRefreshFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYAnimRefreshFooter.swift; sourceTree = "<group>"; };
+		1E44BF6D25491D23006B8082 /* FYAnimButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYAnimButton.swift; sourceTree = "<group>"; };
 		541950486609415F89CBDFF1 /* Pods-FYLottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLottie.debug.xcconfig"; path = "Target Support Files/Pods-FYLottie/Pods-FYLottie.debug.xcconfig"; sourceTree = "<group>"; };
 		ACE7077ACFACB027589A6B6D /* Pods-FYLottie-FYLottieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLottie-FYLottieUITests.release.xcconfig"; path = "Target Support Files/Pods-FYLottie-FYLottieUITests/Pods-FYLottie-FYLottieUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF2F3C4682BEF951AB6C2A65 /* Pods_FYLottieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYLottieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +149,7 @@
 				1E44BEF9254912F4006B8082 /* AppDelegate.swift */,
 				1E44BEFB254912F4006B8082 /* SceneDelegate.swift */,
 				1E44BEFD254912F4006B8082 /* ViewController.swift */,
+				1E44BF6C25491AFC006B8082 /* 按钮 */,
 				1E44BF3D254914C2006B8082 /* Fresh */,
 				1E44BEFF254912F4006B8082 /* Main.storyboard */,
 				1E44BF4B25491884006B8082 /* Lottie-Files */,
@@ -201,6 +204,14 @@
 				1E44BF5725491884006B8082 /* Play-Pause.json */,
 			);
 			path = "Lottie-Files";
+			sourceTree = "<group>";
+		};
+		1E44BF6C25491AFC006B8082 /* 按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				1E44BF6D25491D23006B8082 /* FYAnimButton.swift */,
+			);
+			path = "按钮";
 			sourceTree = "<group>";
 		};
 		6E52DB647D03B58A3949DE08 /* Frameworks */ = {
@@ -481,6 +492,7 @@
 				1E44BEFE254912F4006B8082 /* ViewController.swift in Sources */,
 				1E44BEFA254912F4006B8082 /* AppDelegate.swift in Sources */,
 				1E44BEFC254912F4006B8082 /* SceneDelegate.swift in Sources */,
+				1E44BF6E25491D23006B8082 /* FYAnimButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
