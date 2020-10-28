@@ -7,6 +7,7 @@ target 'FYLottie' do
 
 pod 'SnapKit' #约束
 pod 'lottie-ios'
+pod 'MJRefresh' #刷新
 
   # Pods for FYLottie
 
