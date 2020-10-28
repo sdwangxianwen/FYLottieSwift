@@ -1,0 +1,6 @@
+framework module Pods_FYLottie {
+  umbrella header "Pods-FYLottie-umbrella.h"
+
+  export *
+  module * { export * }
+}

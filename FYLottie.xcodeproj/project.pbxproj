@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0608640B654B091E902DC70C /* Pods_FYLottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77A0D8AD780EA75CB8E2FFE /* Pods_FYLottie.framework */; };
 		1E44BEFA254912F4006B8082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44BEF9254912F4006B8082 /* AppDelegate.swift */; };
 		1E44BEFC254912F4006B8082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44BEFB254912F4006B8082 /* SceneDelegate.swift */; };
 		1E44BEFE254912F4006B8082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44BEFD254912F4006B8082 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		1E44BF06254912F6006B8082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E44BF04254912F6006B8082 /* LaunchScreen.storyboard */; };
 		1E44BF11254912F7006B8082 /* FYLottieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44BF10254912F7006B8082 /* FYLottieTests.swift */; };
 		1E44BF1C254912F7006B8082 /* FYLottieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44BF1B254912F7006B8082 /* FYLottieUITests.swift */; };
+		463A07123A0AA5393DD6D3A3 /* Pods_FYLottieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F3C4682BEF951AB6C2A65 /* Pods_FYLottieTests.framework */; };
+		EDE0D666A792934266D7A607 /* Pods_FYLottie_FYLottieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC61A97BF4B80C448DF687D8 /* Pods_FYLottie_FYLottieUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CE23243C3496E41B30C0D18 /* Pods-FYLottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLottie.release.xcconfig"; path = "Target Support Files/Pods-FYLottie/Pods-FYLottie.release.xcconfig"; sourceTree = "<group>"; };
 		1E44BEF6254912F4006B8082 /* FYLottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYLottie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E44BEF9254912F4006B8082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E44BEFB254912F4006B8082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		1E44BF17254912F7006B8082 /* FYLottieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYLottieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E44BF1B254912F7006B8082 /* FYLottieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYLottieUITests.swift; sourceTree = "<group>"; };
 		1E44BF1D254912F7006B8082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541950486609415F89CBDFF1 /* Pods-FYLottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLottie.debug.xcconfig"; path = "Target Support Files/Pods-FYLottie/Pods-FYLottie.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE7077ACFACB027589A6B6D /* Pods-FYLottie-FYLottieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLottie-FYLottieUITests.release.xcconfig"; path = "Target Support Files/Pods-FYLottie-FYLottieUITests/Pods-FYLottie-FYLottieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF2F3C4682BEF951AB6C2A65 /* Pods_FYLottieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYLottieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9836131CDDBF90CD1AA0458 /* Pods-FYLottieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLottieTests.debug.xcconfig"; path = "Target Support Files/Pods-FYLottieTests/Pods-FYLottieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E324AC9FDD6E942400349E27 /* Pods-FYLottieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLottieTests.release.xcconfig"; path = "Target Support Files/Pods-FYLottieTests/Pods-FYLottieTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC61A97BF4B80C448DF687D8 /* Pods_FYLottie_FYLottieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYLottie_FYLottieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77A0D8AD780EA75CB8E2FFE /* Pods_FYLottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYLottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD826D4A6425A681A99B2546 /* Pods-FYLottie-FYLottieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYLottie-FYLottieUITests.debug.xcconfig"; path = "Target Support Files/Pods-FYLottie-FYLottieUITests/Pods-FYLottie-FYLottieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0608640B654B091E902DC70C /* Pods_FYLottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463A07123A0AA5393DD6D3A3 /* Pods_FYLottieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE0D666A792934266D7A607 /* Pods_FYLottie_FYLottieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				1E44BF0F254912F7006B8082 /* FYLottieTests */,
 				1E44BF1A254912F7006B8082 /* FYLottieUITests */,
 				1E44BEF7254912F4006B8082 /* Products */,
+				FA0BB13EBF1B3DDF15423297 /* Pods */,
+				6E52DB647D03B58A3949DE08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = FYLottieUITests;
 			sourceTree = "<group>";
 		};
+		6E52DB647D03B58A3949DE08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F77A0D8AD780EA75CB8E2FFE /* Pods_FYLottie.framework */,
+				EC61A97BF4B80C448DF687D8 /* Pods_FYLottie_FYLottieUITests.framework */,
+				BF2F3C4682BEF951AB6C2A65 /* Pods_FYLottieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0BB13EBF1B3DDF15423297 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				541950486609415F89CBDFF1 /* Pods-FYLottie.debug.xcconfig */,
+				0CE23243C3496E41B30C0D18 /* Pods-FYLottie.release.xcconfig */,
+				FD826D4A6425A681A99B2546 /* Pods-FYLottie-FYLottieUITests.debug.xcconfig */,
+				ACE7077ACFACB027589A6B6D /* Pods-FYLottie-FYLottieUITests.release.xcconfig */,
+				D9836131CDDBF90CD1AA0458 /* Pods-FYLottieTests.debug.xcconfig */,
+				E324AC9FDD6E942400349E27 /* Pods-FYLottieTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E44BF20254912F7006B8082 /* Build configuration list for PBXNativeTarget "FYLottie" */;
 			buildPhases = (
+				33B895DEAC7C4E7658ABC9B5 /* [CP] Check Pods Manifest.lock */,
 				1E44BEF2254912F4006B8082 /* Sources */,
 				1E44BEF3254912F4006B8082 /* Frameworks */,
 				1E44BEF4254912F4006B8082 /* Resources */,
+				983E1EA5EF2357BB8A498AF0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E44BF23254912F7006B8082 /* Build configuration list for PBXNativeTarget "FYLottieTests" */;
 			buildPhases = (
+				B0BA61CB6F643C7BA2B2A57A /* [CP] Check Pods Manifest.lock */,
 				1E44BF08254912F7006B8082 /* Sources */,
 				1E44BF09254912F7006B8082 /* Frameworks */,
 				1E44BF0A254912F7006B8082 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E44BF26254912F7006B8082 /* Build configuration list for PBXNativeTarget "FYLottieUITests" */;
 			buildPhases = (
+				5B3D9C01D6DEC5FFE479D76A /* [CP] Check Pods Manifest.lock */,
 				1E44BF13254912F7006B8082 /* Sources */,
 				1E44BF14254912F7006B8082 /* Frameworks */,
 				1E44BF15254912F7006B8082 /* Resources */,
+				627043430DF2D825EA6239EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33B895DEAC7C4E7658ABC9B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYLottie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B3D9C01D6DEC5FFE479D76A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYLottie-FYLottieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		627043430DF2D825EA6239EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYLottie-FYLottieUITests/Pods-FYLottie-FYLottieUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYLottie-FYLottieUITests/Pods-FYLottie-FYLottieUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FYLottie-FYLottieUITests/Pods-FYLottie-FYLottieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983E1EA5EF2357BB8A498AF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYLottie/Pods-FYLottie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FYLottie/Pods-FYLottie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FYLottie/Pods-FYLottie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0BA61CB6F643C7BA2B2A57A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYLottieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E44BEF2254912F4006B8082 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		1E44BF21254912F7006B8082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541950486609415F89CBDFF1 /* Pods-FYLottie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		1E44BF22254912F7006B8082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE23243C3496E41B30C0D18 /* Pods-FYLottie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		1E44BF24254912F7006B8082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9836131CDDBF90CD1AA0458 /* Pods-FYLottieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		1E44BF25254912F7006B8082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E324AC9FDD6E942400349E27 /* Pods-FYLottieTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		1E44BF27254912F7006B8082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD826D4A6425A681A99B2546 /* Pods-FYLottie-FYLottieUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		1E44BF28254912F7006B8082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE7077ACFACB027589A6B6D /* Pods-FYLottie-FYLottieUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

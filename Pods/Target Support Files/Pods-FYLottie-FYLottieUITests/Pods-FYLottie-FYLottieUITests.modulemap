@@ -1,0 +1,6 @@
+framework module Pods_FYLottie_FYLottieUITests {
+  umbrella header "Pods-FYLottie-FYLottieUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
